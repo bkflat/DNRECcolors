@@ -17,8 +17,8 @@ ggplot(diamonds, aes(x=color, fill=clarity))+
   theme_classic()+
   dnrec_scale_fill()
   ```
-![brand2](https://user-images.githubusercontent.com/88896475/129405159-39ec4ce0-3fb9-443c-a533-f6c36399b125.png)
-  
+![image](https://user-images.githubusercontent.com/88896475/129426096-f815a28d-e372-4c1d-a82a-e77b9e10ffb3.png)
+
 ## "secondary" palette
 ``` r
 library(ggplot2)
@@ -27,7 +27,7 @@ ggplot(iris, aes(x=Sepal.Width, y=Sepal.Length, color=Species))+
   theme_classic()+
   dnrec_scale_color(palette="secondary")
   ```
- ![secondary](https://user-images.githubusercontent.com/88896475/129405360-ceea045e-8365-49c2-befe-2bbe1f4d3949.png)
+ ![image](https://user-images.githubusercontent.com/88896475/129426122-6c206616-b72d-4377-8a22-aa8bb10a8f92.png)
  
 ## "tertiary" palette
 ``` r
@@ -37,7 +37,7 @@ ggplot(diamonds, aes(x=color, fill=clarity))+
   theme_classic()+
   dnrec_scale_fill(palette="tertiary")
   ```
-  ![tertiary](https://user-images.githubusercontent.com/88896475/129405410-5124b32f-4640-4eb9-bcc7-6ebcb09cd324.png)
+ ![image](https://user-images.githubusercontent.com/88896475/129426136-45fa3087-c3ef-47e1-b9f3-c29c12af38c3.png)
 
 ## "extended" palette 
 ```r
@@ -47,7 +47,7 @@ ggplot(mycarsdata, aes(x=cyl, y=cty, fill=manufacturer))+
   theme_classic()+
   dnrec_scale_fill(palette="extended")
   ```
-  ![extended](https://user-images.githubusercontent.com/88896475/129405466-403436a2-7516-436b-8cdb-a409a3654203.png)
+  ![image](https://user-images.githubusercontent.com/88896475/129426154-9b0811b6-3339-4f8d-96f0-13a400bd2954.png)
 
  ## "mix" palette
  ``` r
@@ -57,4 +57,5 @@ ggplot(mycarsdata, aes(x=cyl, y=cty, fill=manufacturer))+
   theme_classic()+
   dnrec_scale_fill(palette="mix")
   ```
-  ![mix](https://user-images.githubusercontent.com/88896475/129405508-240c91d9-f3ac-45dd-9c7d-5e57d00cae0b.png)
+ ![image](https://user-images.githubusercontent.com/88896475/129426166-b36bc974-a1b0-409f-9f84-4bc6fe23d8d3.png)
+
