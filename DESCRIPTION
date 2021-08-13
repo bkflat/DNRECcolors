@@ -1,0 +1,17 @@
+Package: DNRECcolors
+Title: DNREC Brand Colors for ggplot2
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Britt",
+           family = "Flaten",
+           role = c("aut", "cre"),
+           email = "britt.flaten@gmail.com",
+           comment = c())
+Description: DNRECcolors makes plotting using DNREC brand colors from the DNREC Brand and Editorial Style Guide (July 2021) easier. DNRECcolors includes built-in palettes and functions for use in ggplot2. Inspired by and copied from the ggsci package: https://github.com/nanxstats/ggsci .
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: scales, ggplot2,
+    R (>= 2.10)
