@@ -4,11 +4,9 @@
 \alias{dnrec_cols}
 \title{Obtain hex code from color name}
 \usage{
-dnrec_cols(color, ...)
+dnrec_cols(...)
 }
 \arguments{
-\item{color}{Name of color from 2021 Guide. No capitals.}
-
 \item{...}{Additional Arguments}
 }
 \value{
