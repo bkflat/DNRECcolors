@@ -3,9 +3,7 @@ DNRECcolors is intended to be used by Delaware Department of Natural Resources a
 
 DNRECcolors was inspired by and copied from the (awesome) [`ggsci` package](https://github.com/nanxstats/ggsci)
 
-For inquiries please contact brittney.flaten@delaware.gov or britt.flaten@gmail.com
-
-To find out more about DNREC and the work we do for the state of Delaware, visit: https://dnrec.alpha.delaware.gov/
+To find out more about DNREC and the work they do for the state of Delaware, visit: https://dnrec.alpha.delaware.gov/
 
 # Example Gallery
 
